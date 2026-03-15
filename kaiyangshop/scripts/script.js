@@ -53,9 +53,9 @@ function searchCategories() {
 
 document
 	.getElementById("search-input")
-	.addEventListener("input", searchCategories);
+	?.addEventListener("input", searchCategories);
 
 // ===================== Init =====================
 initCartDialog();
 loadCategories();
-document.getElementById("cart-toast").hidePopover();
+document.getElementById("cart-toast")?.hidePopover();
