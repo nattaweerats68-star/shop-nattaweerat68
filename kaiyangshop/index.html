@@ -4,9 +4,9 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>KAIYANG SHOP</title>
-		<link href="Style1.css" rel="stylesheet" />
+		<link href="style.css" rel="stylesheet" />
 		<script src="https://cdn.tailwindcss.com"></script>
-		<script src="script.js" defer></script>
+		<script src="scripts/script.js" type="module"></script>
 	</head>
 	<body>
 		<!-- ================= NAVBAR ================= -->
@@ -84,7 +84,7 @@
 
 		<!-- ================= CATEGORY SECTION ================= -->
 		<section class="categories">
-			<h2 class="section-title">สินค้า</h2>
+			<h2 class="section-title">หมวดหมู่สินค้า</h2>
 
 			<div class="category-grid" id="product-grid">
 				<div class="category-card">
@@ -98,10 +98,10 @@
 					<div class="card-content">
 						<h3 class="product-title">Grow A Garden</h3>
 						<p class="product-description">บริการจำหน่ายแมพ</p>
-						<p class="product-price">200</p>
-						<button class="product-button" data-id="">
-							เพิ่มลงตะกร้า
-						</button>
+						<!-- <p class="product-price">200</p> -->
+						<a class="product-button" href="categories?id=1">
+							ดูสินค้าทั้งหมด
+						</a>
 					</div>
 				</div>
 			</div>
@@ -133,7 +133,7 @@
 		<!-- ================= CART DIALOG ================= -->
 		<dialog
 			id="cart-dialog"
-			class="m-auto w-full max-w-lg rounded-2xl p-0 shadow-2xl backdrop:bg-black/50 open:flex open:flex-col"
+			class="m-auto w-full max-w-lg rounded-2xl p-0 shadow-2xl"
 		>
 			<!-- Dialog Header -->
 			<div
