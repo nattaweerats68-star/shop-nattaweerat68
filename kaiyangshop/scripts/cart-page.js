@@ -24,14 +24,14 @@ function renderCart() {
 	if (cart.length === 0) {
 		cartItemsEl.innerHTML = "";
 		cartEmpty.classList.remove("hidden");
-		cartSummary.classList.add("hidden");
+		cartSummary.style.display = "none";
 		cartCountLabel.textContent = "";
 		updateCartBadge();
 		return;
 	}
+	cartSummary.style.display = "block";
 
 	cartEmpty.classList.add("hidden");
-	cartSummary.classList.remove("hidden");
 
 	cartItemsEl.innerHTML = cart
 		.map(
