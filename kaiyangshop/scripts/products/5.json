@@ -1,0 +1,56 @@
+[
+	{
+		"id": 1,
+		"name": "Speed Boost Gamepass",
+		"description": "เกมพาสเพิ่มความเร็ว วิ่งหนีเร็วขึ้น 2 เท่า",
+		"price": 79,
+		"img": "escape_tsunami.webp",
+		"stock": 60,
+		"sold": 445
+	},
+	{
+		"id": 2,
+		"name": "Double Jump Gamepass",
+		"description": "เกมพาสกระโดด 2 ครั้ง ข้ามสิ่งกีดขวางง่ายขึ้น",
+		"price": 99,
+		"img": "escape_tsunami.webp",
+		"stock": 45,
+		"sold": 387
+	},
+	{
+		"id": 3,
+		"name": "VIP Gamepass",
+		"description": "เกมพาส VIP รับสกินพิเศษ + บูสต์ทั้งหมด",
+		"price": 199,
+		"img": "escape_tsunami.webp",
+		"stock": 20,
+		"sold": 156
+	},
+	{
+		"id": 4,
+		"name": "Shield Gamepass",
+		"description": "เกมพาสโล่กัน กันน้ำได้ 3 วินาที",
+		"price": 129,
+		"img": "escape_tsunami.webp",
+		"stock": 35,
+		"sold": 278
+	},
+	{
+		"id": 5,
+		"name": "500 Gems",
+		"description": "เพชร 500 เม็ด ใช้ซื้อไอเทมในร้านค้า",
+		"price": 29,
+		"img": "escape_tsunami.webp",
+		"stock": 150,
+		"sold": 712
+	},
+	{
+		"id": 6,
+		"name": "2500 Gems",
+		"description": "เพชร 2500 เม็ด คุ้มกว่า 30%!",
+		"price": 119,
+		"img": "escape_tsunami.webp",
+		"stock": 80,
+		"sold": 329
+	}
+]

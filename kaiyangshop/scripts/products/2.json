@@ -1,0 +1,74 @@
+[
+	{
+		"id": 1,
+		"name": "50 Token",
+		"description": "โทเค็น 50 ใช้ซื้อของในเกม Grow A Garden",
+		"price": 5,
+		"img": "grow_a_garden.jpg",
+		"stock": 200,
+		"sold": 249
+	},
+	{
+		"id": 2,
+		"name": "250 Token",
+		"description": "โทเค็น 250 คุ้มค่ากว่า!",
+		"price": 19,
+		"img": "grow_a_garden.jpg",
+		"stock": 150,
+		"sold": 203
+	},
+	{
+		"id": 3,
+		"name": "1000 Token",
+		"description": "โทเค็น 1000 สุดคุ้ม!",
+		"price": 69,
+		"img": "grow_a_garden.jpg",
+		"stock": 80,
+		"sold": 298
+	},
+	{
+		"id": 4,
+		"name": "Raccoon [Divine]",
+		"description": "สัตว์เลี้ยง Raccoon ระดับ Divine หายากมาก",
+		"price": 99,
+		"img": "grow_a_garden.jpg",
+		"stock": 10,
+		"sold": 1126
+	},
+	{
+		"id": 5,
+		"name": "Phoenix [Divine]",
+		"description": "สัตว์เลี้ยง Phoenix ระดับ Divine สุดแรร์",
+		"price": 139,
+		"img": "grow_a_garden.jpg",
+		"stock": 8,
+		"sold": 207
+	},
+	{
+		"id": 6,
+		"name": "Butterfly [Mythical]",
+		"description": "สัตว์เลี้ยง Butterfly ระดับ Mythical สวยงาม",
+		"price": 49,
+		"img": "grow_a_garden.jpg",
+		"stock": 25,
+		"sold": 508
+	},
+	{
+		"id": 7,
+		"name": "Griffin [Divine]",
+		"description": "สัตว์เลี้ยง Griffin ระดับ Divine ทรงพลัง",
+		"price": 199,
+		"img": "grow_a_garden.jpg",
+		"stock": 5,
+		"sold": 127
+	},
+	{
+		"id": 8,
+		"name": "สุ่มสัตว์เลี้ยง อายุ 50+",
+		"description": "สุ่มสัตว์เลี้ยง อายุ 50 ขึ้นไป ลุ้นตัวแรร์!",
+		"price": 9,
+		"img": "grow_a_garden.jpg",
+		"stock": 100,
+		"sold": 554
+	}
+]

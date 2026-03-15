@@ -1,0 +1,56 @@
+[
+	{
+		"id": 1,
+		"name": "Gamepass ทุกแมพ",
+		"description": "กิฟเกมพาส 99 Nights in the Forest ทุกแมพ",
+		"price": 149,
+		"img": "99_nights.webp",
+		"stock": 50,
+		"sold": 312
+	},
+	{
+		"id": 2,
+		"name": "Flashlight [Legendary]",
+		"description": "ไฟฉาย Legendary สว่างมาก ส่องได้ไกล",
+		"price": 79,
+		"img": "99_nights.webp",
+		"stock": 30,
+		"sold": 185
+	},
+	{
+		"id": 3,
+		"name": "Night Vision Goggles",
+		"description": "แว่นมองกลางคืน มองเห็นชัดในที่มืด",
+		"price": 129,
+		"img": "99_nights.webp",
+		"stock": 20,
+		"sold": 97
+	},
+	{
+		"id": 4,
+		"name": "Survival Kit",
+		"description": "ชุดเอาตัวรอด รวมไอเทมจำเป็นทั้งหมด",
+		"price": 199,
+		"img": "99_nights.webp",
+		"stock": 15,
+		"sold": 64
+	},
+	{
+		"id": 5,
+		"name": "500 Coins",
+		"description": "เหรียญ 500 Coins ใช้ซื้อไอเทมในเกม",
+		"price": 39,
+		"img": "99_nights.webp",
+		"stock": 99,
+		"sold": 528
+	},
+	{
+		"id": 6,
+		"name": "2000 Coins",
+		"description": "เหรียญ 2000 Coins คุ้มกว่า!",
+		"price": 139,
+		"img": "99_nights.webp",
+		"stock": 60,
+		"sold": 241
+	}
+]

@@ -1,0 +1,65 @@
+[
+	{
+		"id": 1,
+		"name": "Neon Blaster Skin",
+		"description": "สกินปืน Neon Blaster เรืองแสงสุดเท่",
+		"price": 59,
+		"img": "hypershot.webp",
+		"stock": 40,
+		"sold": 356
+	},
+	{
+		"id": 2,
+		"name": "Galaxy Sniper Skin",
+		"description": "สกินปืน Galaxy Sniper ลายกาแล็กซี่",
+		"price": 89,
+		"img": "hypershot.webp",
+		"stock": 25,
+		"sold": 198
+	},
+	{
+		"id": 3,
+		"name": "VIP Gamepass",
+		"description": "เกมพาส VIP รับสิทธิพิเศษทุกอย่าง",
+		"price": 149,
+		"img": "hypershot.webp",
+		"stock": 30,
+		"sold": 487
+	},
+	{
+		"id": 4,
+		"name": "Double XP Gamepass",
+		"description": "เกมพาส XP x2 เลเวลอัพเร็วขึ้น 2 เท่า",
+		"price": 99,
+		"img": "hypershot.webp",
+		"stock": 45,
+		"sold": 612
+	},
+	{
+		"id": 5,
+		"name": "1000 Credits",
+		"description": "เครดิต 1000 ใช้ซื้อสกินและไอเทม",
+		"price": 49,
+		"img": "hypershot.webp",
+		"stock": 99,
+		"sold": 823
+	},
+	{
+		"id": 6,
+		"name": "5000 Credits",
+		"description": "เครดิต 5000 คุ้มค่ากว่า ประหยัด 20%",
+		"price": 199,
+		"img": "hypershot.webp",
+		"stock": 50,
+		"sold": 341
+	},
+	{
+		"id": 7,
+		"name": "Flame Shotgun Skin",
+		"description": "สกินปืนลูกซอง Flame ลายเปลวไฟ",
+		"price": 79,
+		"img": "hypershot.webp",
+		"stock": 20,
+		"sold": 154
+	}
+]
