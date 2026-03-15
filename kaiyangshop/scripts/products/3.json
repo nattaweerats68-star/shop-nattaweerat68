@@ -3,7 +3,7 @@
 		"id": 1,
 		"name": "Leopard Fruit",
 		"description": "ผลไม้ Leopard สุดแรร์ พลังเปลี่ยนร่างเสือดาว",
-		"price": 299,
+		"price": 300,
 		"img": "blox_fruits.webp",
 		"stock": 5,
 		"sold": 843
@@ -12,7 +12,7 @@
 		"id": 2,
 		"name": "Dragon Fruit",
 		"description": "ผลไม้ Dragon แปลงร่างเป็นมังกร บินได้",
-		"price": 249,
+		"price": 750,
 		"img": "blox_fruits.webp",
 		"stock": 8,
 		"sold": 1205
@@ -30,7 +30,7 @@
 		"id": 4,
 		"name": "Permanent Buddha",
 		"description": "ผลไม้ Buddha ถาวร ฟาร์มง่ายตลอดชีวิต",
-		"price": 499,
+		"price": 100,
 		"img": "blox_fruits.webp",
 		"stock": 3,
 		"sold": 421
@@ -39,7 +39,7 @@
 		"id": 5,
 		"name": "Gamepass เพิ่มช่องเก็บผลไม้",
 		"description": "เกมพาสเพิ่มช่องเก็บผลไม้ +1 ช่อง",
-		"price": 89,
+		"price": 45,
 		"img": "blox_fruits.webp",
 		"stock": 50,
 		"sold": 632
@@ -48,7 +48,7 @@
 		"id": 6,
 		"name": "Dark Blade",
 		"description": "ดาบ Dark Blade สุดแรร์ ดาเมจสูงมาก",
-		"price": 349,
+		"price": 100,
 		"img": "blox_fruits.webp",
 		"stock": 4,
 		"sold": 289
