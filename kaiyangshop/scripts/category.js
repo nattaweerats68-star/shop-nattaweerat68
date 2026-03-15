@@ -7,6 +7,7 @@ const grid = document.getElementById("product-grid");
 const sectionTitle = document.getElementById("section-title");
 const breadcrumbCurrent = document.getElementById("breadcrumb-current");
 const categoryHeader = document.getElementById("category-header");
+const searchInput = document.getElementById("search-input");
 
 let allProducts = [];
 
@@ -40,6 +41,7 @@ async function init() {
 	} else {
 		// No category selected — show all categories as cards
 		renderCategoryList(categories);
+        searchInput.style.display = "none"; // hide search when showing categories
 	}
 }
 
