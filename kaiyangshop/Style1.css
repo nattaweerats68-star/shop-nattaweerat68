@@ -543,3 +543,50 @@ body.cart-page {
     background: var(--primary);
     border-radius: 3px;
 }
+
+/* Dialog styles */
+
+/* Open state */
+dialog:open {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Closed state */
+dialog {
+	opacity: 0;
+	transform: translateY(20px); /* starting offset for fly animation */
+	transition:
+		opacity 0.25s ease,
+		transform 0.25s ease,
+		overlay 0.25s allow-discrete,
+		display 0.25s allow-discrete;
+}
+
+/* Starting style (before open) */
+@starting-style {
+	dialog:open {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+}
+
+/* Backdrop transition */
+dialog::backdrop {
+	background-color: transparent;
+	transition:
+		display 0.25s allow-discrete,
+		overlay 0.25s allow-discrete,
+		background-color 0.25s ease;
+}
+
+dialog:open::backdrop {
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+/* Starting-style for backdrop */
+@starting-style {
+	dialog:open::backdrop {
+		background-color: transparent;
+	}
+}
