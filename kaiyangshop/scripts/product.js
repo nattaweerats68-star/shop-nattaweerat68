@@ -53,7 +53,7 @@ async function init() {
 		document.getElementById("product-stock").textContent = product.stock;
 		document.getElementById("product-sold").textContent = product.sold;
 		document.getElementById("breadcrumb-current").textContent = product.name;
-		document.title = `${product.name} - KAIYANG SHOP`;
+		document.title = `${product.name} - BAMBOO SHOP`;
 
 		// Show detail, hide loading
 		loadingEl.classList.add("hidden");

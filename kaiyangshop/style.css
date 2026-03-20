@@ -6,9 +6,9 @@
    ============================================ */
 
 :root {
-	--primary: #ff6b35;
-	--primary-dark: #e05528;
-	--accent: #ffd700;
+	--primary: #0bf158af;
+	--primary-dark: #28e04d;
+	--accent: #77f561;
 	--bg-dark: #0f0f1a;
 	--bg-card: #1a1a2e;
 	--bg-surface: #16213e;
@@ -80,7 +80,7 @@ body {
 
 .nav-links a:hover {
 	color: var(--text-main);
-	background: rgba(255, 107, 53, 0.12);
+	background: rgba(148, 233, 11, 0.904);
 }
 
 .nav-right {
@@ -132,7 +132,7 @@ body {
 }
 
 .login-btn:hover {
-	background: rgba(255, 107, 53, 0.12);
+	background: rgba(93, 239, 85, 0.942);
 }
 
 .register-btn {
@@ -159,7 +159,7 @@ body {
 	inset: 0;
 	background: radial-gradient(
 		ellipse at center,
-		rgba(255, 107, 53, 0.15) 0%,
+		rgba(7, 90, 15, 0.911) 0%,
 		transparent 70%
 	);
 }
@@ -216,7 +216,7 @@ body {
 	border-color: var(--primary);
 	color: var(--primary);
 	transform: translateY(-2px);
-	box-shadow: 0 6px 20px rgba(255, 107, 53, 0.2);
+	box-shadow: 0 6px 20px rgba(198, 255, 53, 0.855);
 }
 
 /* ================= CATEGORIES ================= */
@@ -251,8 +251,8 @@ body {
 
 .category-card:hover {
 	transform: translateY(-4px);
-	box-shadow: 0 12px 32px rgba(255, 107, 53, 0.2);
-	border-color: rgba(255, 107, 53, 0.3);
+	box-shadow: 0 12px 32px rgba(53, 255, 63, 0.968);
+	border-color: rgba(225, 255, 53, 0.912);
 }
 
 .card-img {
@@ -337,7 +337,7 @@ p.product-price {
 }
 
 .stat-box:hover {
-	background: rgba(255, 107, 53, 0.05);
+	background: rgba(53, 255, 53, 0.889);
 }
 
 .stat-box h3 {
@@ -424,8 +424,8 @@ body.cart-page {
 
 .card:hover {
 	transform: translateY(-3px);
-	box-shadow: 0 8px 28px rgba(255, 107, 53, 0.25);
-	border-color: rgba(255, 107, 53, 0.4) !important;
+	box-shadow: 0 8px 28px rgba(53, 255, 110, 0.904);
+	border-color: rgba(53, 255, 70, 0.914) !important;
 }
 
 .cart-container {
@@ -528,7 +528,7 @@ body.cart-page {
 	height: 28px;
 	border: none;
 	border-radius: 6px;
-	background: rgba(255, 107, 53, 0.15);
+	background: rgba(83, 229, 98, 0.951);
 	color: var(--primary);
 	font-weight: 700;
 	cursor: pointer;

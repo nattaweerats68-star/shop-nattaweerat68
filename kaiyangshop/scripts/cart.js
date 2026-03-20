@@ -1,5 +1,5 @@
 // ===================== Cart Module (localStorage) =====================
-const CART_KEY = "kaiyangshop_cart";
+const CART_KEY = "bambooshop_cart";
 
 export function getCart() {
 	try {

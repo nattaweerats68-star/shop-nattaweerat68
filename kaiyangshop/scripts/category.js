@@ -32,7 +32,7 @@ async function init() {
 		document.getElementById("category-desc").textContent = category.description || "";
 		breadcrumbCurrent.textContent = category.name;
 		sectionTitle.textContent = `สินค้า ${category.name}`;
-		document.title = `${category.name} - KAIYANG SHOP`;
+		document.title = `${category.name} - BAMBOO SHOP`;
 
 		// Load products for this category
 		const prodRes = await fetch(`scripts/products/${categoryId}.json`);
